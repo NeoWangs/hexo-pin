@@ -6,7 +6,7 @@ function layout(el){
 		boxW = box[0].offsetWidth,
 		boxH,
 		n = el.offsetWidth / boxW | 0;  //计算页面能排下多少Pin
-		el.style.cssText = "position:relative;height:500px;overflow-x:hidden;overflow-y:auto;"
+		el.style.cssText = "position:relative;overflow:hidden;"
 
 	// el.style.width = n * boxW + "px";
 	for(var i = 0; i < box.length; i++) {
@@ -23,6 +23,7 @@ function layout(el){
 			box[i].style.left = (minKey * boxW) + 'px';
 		}
 	}
+	el.style.height = (h.length ? Math.max.apply({}, h) : 0) + 'px'; //容器高度跟随各列中最高的一列，不再写死
 };
 function sort(){
 	var wraps = document.getElementsByClassName("hexo-pin-wrap");
