@@ -1,6 +1,6 @@
 {
   "name": "hexo-pin",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Masonry Layouts，瀑布流",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "hexo",
     "masonry",
     "layout",
-	"瀑布流"
+    "瀑布流"
   ],
   "author": "neo",
   "license": "MIT",
