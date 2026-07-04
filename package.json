@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EasonWangs/hexo-pin.git"
+    "url": "git+https://github.com/NeoWangs/hexo-pin.git"
   },
   "keywords": [
     "hexo",
@@ -19,7 +19,7 @@
   "author": "neo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EasonWangs/hexo-pin/issues"
+    "url": "https://github.com/NeoWangs/hexo-pin/issues"
   },
-  "homepage": "https://github.com/EasonWangs/hexo-pin#readme"
+  "homepage": "https://github.com/NeoWangs/hexo-pin#readme"
 }
